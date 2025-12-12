@@ -1,25 +1,18 @@
-/*
- * File: style.css
- * Description: Basic styling for the Autobiography Website
- */
-
-/* --- Universal Reset and Basic Styling --- */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Light grey background */
-    color: #333; /* Dark text color */
+    background-color: #fcfcf5;
+    color: #4a4a4a;
 }
 
-/* --- Header and Navigation --- */
 header {
-    background: #2a73a3; /* A nice blue color */
+    background: #1e5631;
     color: white;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -27,59 +20,54 @@ header h1 {
     font-size: 2.5em;
 }
 
-/* --- Profile Photo Styling --- */
 .profile-photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
     object-fit: cover;
     margin-top: 15px;
-    border: 5px solid white; /* White border around the photo */
+    border: 5px solid #d4d0c5;
 }
 
-/* --- Main Content Area --- */
 main {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
 }
 
-/* --- Section Styling --- */
 section {
     background: white;
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 section h2 {
-    color: #4a90e2; /* A slightly darker blue for section headings */
+    color: #4f772d;
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 10px;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-/* --- List Styling (for Education and Hobbies) --- */
 ul {
-    list-style: none; /* Removes default bullets */
+    list-style: none;
     padding-left: 0;
 }
 
 ul li {
     padding: 8px 0;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #a8a8a8;
 }
 
 ul li:last-child {
-    border-bottom: none; /* Remove border from the last item */
+    border-bottom: none;
 }
 
-/* --- Quote Styling --- */
 .quote {
-    background: #e6f7ff; /* Very light blue background for the quote */
-    border-left: 5px solid #4a90e2;
+    background: #e9ecef;
+    border-left: 5px solid #8e9a41;
     padding: 15px;
     margin: 20px 0;
     font-style: italic;
@@ -90,15 +78,14 @@ ul li:last-child {
     text-align: right;
     margin-top: 10px;
     font-style: normal;
-    color: #000000;
+    color: #1e5631;
 }
 
-/* --- Footer --- */
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
-    color: black;
+    background: #4a4a4a;
+    color: #fcfcf5;
     margin-top: 40px;
     font-size: 0.9em;
 }
